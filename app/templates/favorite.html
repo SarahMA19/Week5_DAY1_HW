@@ -1,0 +1,26 @@
+
+<div class="container">
+    <h1>My Current Top 5 Favorites</h1>
+    <div class="row">
+        {% for f in favs %}
+        <div class="col-6">
+            <p>{{ f.favorite }}</p>
+            <h6>{{ f.style }}</h6>
+            <h6>{{ f.duration }}</h6>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+
+
+
+<!-- <h1>Current Top 5 favorite activites I like do by myself (in no particualr order)</h1>
+<ul>
+    <ul>50 min in 170 degree sauna</ul>
+    <ul>2 min ice cold shower</ul>
+    <ul>red light therapy</ul>
+    <ul>listening to audio book/podcast while walking</ul>
+    <ul>morning sunlight in my naked eyes every day</ul>
+</ul> -->
